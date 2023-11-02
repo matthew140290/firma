@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firma</title>
+    <style>
+      body {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      .container {
+        width: 600px;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        border: 1px solid lightgray;
+      }
+      .image-container {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+      }
+      .image-container img {
+        width: 100%;
+        height: auto;
+      }
+      .vertical-division {
+        border-left: 8px solid #3b99f1;
+        border-radius: 10px;
+        height: 80px; /* Ajusta la altura según sea necesario */
+        margin: 0 20px;
+      }
+      .text-name {
+        margin: 1px 0 2px 0;
+        color: gray;
+      }
+      .container-circle {
+        display: flex;
+
+        align-items: center;
+      }
+      .circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #c3e3fa;
+      }
+      .container-circle p {
+        margin: 2px 0 2px 2px;
+        color: gray;
+      }
+      .text {
+        font-size: 16px;
+      }
+      .text p:first-child {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="./image.jpg" alt="Imagen" />
+      </div>
+      <div class="text">
+        <p class="text-name" style="color: #2a3b47">
+          <strong>Matthew Ruiz Kidman</strong>
+        </p>
+        <p class="text-name">Ingeniero de Sistemas</p>
+        <i class="text-name">Esp. en Ciberseguridad</i><br />
+        <i class="text-name">Programador Javascript fullStack</i>
+      </div>
+      <div class="vertical-division"></div>
+      <div class="text">
+        <div class="container-circle">
+          <div class="circle"></div>
+          <p>314-376-9778</p>
+        </div>
+        <div class="container-circle">
+          <div class="circle"></div>
+          <p>Barranquilla, Colombia</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
